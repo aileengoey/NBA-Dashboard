@@ -1,3 +1,4 @@
+HEAD
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -103,3 +104,4 @@ st.dataframe(filtered_df)
 top_scorer = df.sort_values(by="PTS", ascending=False).iloc[0]
 st.markdown(f"💡 **Insight:** {top_scorer['Player']} is the top scorer this season with an average of {top_scorer['PTS']} points!")
 
+origin/main
